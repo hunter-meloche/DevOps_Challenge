@@ -31,4 +31,4 @@ A second, smaller regex is used after the initial validation to account for grou
 
 **re.search(r"(\d)\1{3,}", cardNum.replace("-", ""))**
 
-"(\d)\1" represents one digit followed by itself three more times "{3,}" AKA 4 consecutive digits and 
+"(\d)\1" represents one digit followed by itself three more times "{3,}" AKA 4 consecutive digits.
