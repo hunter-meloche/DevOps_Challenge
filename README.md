@@ -1,4 +1,4 @@
-# Hunter_Challenge
+# DevOps_Challenge
 
 This challenge is composed of 2 parts: Infrastructure and Coding.
 
