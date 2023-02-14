@@ -1,6 +1,6 @@
 # DevOps_Challenge
 
-This challenge is composed of 2 parts: Infrastructure and Coding.
+A challenge set up to demonstrate DevOps best practices by serving a simple Hello World webpage
 
 ## Prerequisites
 ```
