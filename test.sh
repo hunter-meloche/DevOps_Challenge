@@ -1,10 +1,14 @@
 #!/bin/bash
 
-# Finds the public IP address of the provisioned EC2 instance
-IP=$(aws ec2 describe-instances \
-   --filter Name=instance.group-name,Values=challenge_sg \
-   --query 'Reservations[*].Instances[*].PublicIpAddress' \
-   --output text)
+# Find the instance's IP if it is not given
+if [ $# == 0 ]; then
+  IP=$(aws ec2 describe-instances \
+    --filter Name=instance.group-name,Values=challenge_sg \
+    --query 'Reservations[*].Instances[*].PublicIpAddress' \
+    --output text)
+else
+  IP=$1
+fi
 
 # Prints the IP address
 echo "The IP address of the instance is $IP"
