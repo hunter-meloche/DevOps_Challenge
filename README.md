@@ -15,7 +15,7 @@ Terraform is used to create the AWS infrastructure that facilitates hosting the 
 ### Bash
 I created three different Bash scripts in the root of the repository. The build.sh script is ideally all you need to use if you've already set up the prereqs. It automatically calls test.sh to verify the deployment was successful. When you're done, you just need to call destroy.sh to clean up.
 
-## Regex Coding Challenge
+## Regex Challenge
 Regular expressions (regex) are used to verify that valid credit card numbers are submitted.
 ```
 "^[456][\d]{3}-?[\d]{4}-?[\d]{4}-?[\d]{4}$"
