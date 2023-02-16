@@ -1,7 +1,7 @@
 # Pins working nginx version image
 FROM nginx:1.23.3
 
-# Copies in "Hello World!" index.html 
+# Hardcoded "Hello World!" index.html 
 RUN echo \
 "<html> \
 <head> \
