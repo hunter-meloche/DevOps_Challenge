@@ -1,6 +1,6 @@
 # IaC Challenge
 
-A challenge set up to Infrastructure as Code (IaC) knowledge.
+A challenge set up to demonstrate Infrastructure as Code (IaC) knowledge by deploying an HTTPS only nginx service with a self-signing SSL certificate into AWS using Docker, Bash, and Terraform.
 
 ## Prerequisites
 ```
