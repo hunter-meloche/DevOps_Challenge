@@ -3,7 +3,7 @@
 # Find the instance's IP if it is not given
 if [ $# == 0 ]; then
   IP=$(aws ec2 describe-instances \
-    --filter Name=instance.group-name,Values=challenge_sg \
+    --filter Name=instance.group-name,Values=nginx_sg \
     --query 'Reservations[*].Instances[*].PublicIpAddress' \
     --output text)
 else
