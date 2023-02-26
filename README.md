@@ -5,9 +5,9 @@ A challenge set up to demonstrate Infrastructure as Code (IaC) knowledge by depl
 ## Prerequisites
 ```
 AWS CLI
-terraform
-docker
-Bash shell
+Terraform
+Docker
+Bash
 ```
 ### Instructions
 After AWS CLI, Terraform, and Docker are all properly configured on your host running Bash, run build.sh to create the infrastructure. After setup is complete, test.sh will be automatically called to test what was provisioned. After that, destroy.sh can teaar down the infrastructure to avoid unnecessary costs.
